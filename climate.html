@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudanças Climáticas - Entenda e Agir</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f9f4;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2e7d32, #1b5e20);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background-color: #388e3c;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s;
+        }
+
+        nav a:hover {
+            opacity: 0.8;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 2rem;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2e7d32;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            border-bottom: 3px solid #4caf50;
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            color: #388e3c;
+            margin: 1.5rem 0 0.5rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+
+        .highlight {
+            background-color: #e8f5e9;
+            padding: 1.5rem;
+            border-left: 4px solid #4caf50;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #66bb6a, #43a047);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+
+        .stat-card h4 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-card p {
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        ul.solutions-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul.solutions-list li {
+            background: #e8f5e9;
+            margin: 0.5rem 0;
+            padding: 1rem;
+            border-radius: 4px;
+            border-left: 4px solid #66bb6a;
+        }
+
+        ul.solutions-list li:before {
+            content: "✓ ";
+            color: #2e7d32;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 3rem;
+        }
+
+        footer p {
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav ul {
+                gap: 1rem;
+            }
+
+            section {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🌍 Mudanças Climáticas</h1>
+        <p>Entenda o problema, conheça as causas e descubra como agir</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#o-que-e">O que é?</a></li>
+            <li><a href="#causas">Causas</a></li>
+            <li><a href="#consequencias">Consequências</a></li>
+            <li><a href="#dados">Dados Globais</a></li>
+            <li><a href="#solucoes">Soluções</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="o-que-e">
+            <h2>O que são Mudanças Climáticas?</h2>
+            <p>As mudanças climáticas referem-se às alterações de longo prazo nas temperaturas e padrões climáticos da Terra. Embora essas mudanças possam ser naturais, desde o século XIX as atividades humanas têm sido o principal motor das mudanças climáticas, principalmente devido à queima de combustíveis fósseis.</p>
+            
+            <div class="highlight">
+                <strong>Fato Importante:</strong> O aquecimento global é um aspecto das mudanças climáticas, referindo-se especificamente ao aumento da temperatura média da superfície da Terra causado pelo acúmulo de gases de efeito estufa na atmosfera.
+            </div>
+        </section>
+
+        <section id="causas">
+            <h2>Principais Causas</h2>
+            <h3>Emissões de Gases de Efeito Estufa</h3>
+            <p>A queima de carvão, petróleo e gás para produção de energia, transporte e indústria libera dióxido de carbono (CO₂) e outros gases que retêm calor na atmosfera.</p>
+
+            <h3>Desmatamento</h3>
+            <p>A destruição de florestas reduz a capacidade do planeta de absorver CO₂, além de liberar o carbono armazenado nas árvores quando são queimadas ou decompostas.</p>
+
+            <h3>Agricultura e Pecuária</h3>
+            <p>A criação de gado produz metano, um gás de efeito estufa muito mais potente que o CO₂. O uso de fertilizantes também libera óxido nitroso.</p>
+
+            <h3>Indústria e Consumo</h3>
+            <p>Processos industriais e o consumo excessivo de produtos geram emissões diretas e indiretas em toda a cadeia produtiva.</p>
+        </section>
+
+        <section id="consequencias">
+            <h2>Consequências das Mudanças Climáticas</h2>
+            <p>Os impactos das mudanças climáticas já são visíveis em todo o mundo e tendem a se intensificar se não tomarmos medidas urgentes:</p>
+
+            <h3>Eventos Climáticos Extremos</h3>
+            <p>Ondas de calor mais intensas, secas prolongadas, tempestades mais fortes e inundações frequentes estão se tornando cada vez mais comuns.</p>
+
+            <h3>Degelo e Elevação do Nível do Mar</h3>
+            <p>As calotas polares e geleiras estão derretendo em ritmo acelerado, causando a elevação do nível dos oceanos e ameaçando cidades costeiras e ilhas.</p>
+
+            <h3>Perda de Biodiversidade</h3>
+            <p>Muitas espécies não conseguem se adaptar às mudanças rápidas no clima, levando à extinção e desequilíbrio dos ecossistemas.</p>
+
+            <h3>Impactos na Agricultura e Segurança Alimentar</h3>
+            <p>Mudanças nos padrões de chuva e temperatura afetam a produção agrícola, podendo levar à escassez de alimentos e aumento dos preços.</p>
+
+            <h3>Riscos à Saúde Humana</h3>
+            <p>O aumento de doenças transmitidas por vetores, problemas respiratórios devido à poluição e mortes relacionadas ao calor são consequências diretas.</p>
+        </section>
+
+        <section id="dados">
+            <h2>Dados Globais Alarmantes</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h4>+1.1°C</h4>
+                    <p>Aumento da temperatura média global desde a era pré-industrial</p>
+                </div>
+                <div class="stat-card">
+                    <h4>419 ppm</h4>
+                    <p>Concentração de CO₂ na atmosfera (nível mais alto em milhões de anos)</p>
+                </div>
+                <div class="stat-card">
+                    <h4>-28%</h4>
+                    <p>Redução do gelo marinho ártico por década desde 1979</p>
+                </div>
+                <div class="stat-card">
+                    <h4>+3.3 mm/ano</h4>
+                    <p>Taxa atual de elevação do nível do mar</p>
+                </div>
+            </div>
+            
+            <div class="highlight">
+                <strong>Meta do Acordo de Paris:</strong> Manter o aquecimento global abaixo de 2°C, preferencialmente limitado a 1.5°C acima dos níveis pré-industriais, para evitar os piores impactos das mudanças climáticas.
+            </div>
+        </section>
+
+        <section id="solucoes">
+            <h2>Soluções e Ações Individuais</h2>
+            <p>Combater as mudanças climáticas requer ação em todos os níveis - governos, empresas e indivíduos. Veja o que você pode fazer:</p>
+
+            <ul class="solutions-list">
+                <li><strong>Reduza o consumo de energia:</strong> Use lâmpadas LED, eletrodomésticos eficientes e desligue equipamentos quando não estiverem em uso.</li>
+                <li><strong>Opte por energias renováveis:</strong> Instale painéis solares ou escolha fornecedores de energia limpa.</li>
+                <li><strong>Use transporte sustentável:</strong> Caminhe, use bicicleta, transporte público ou veículos elétricos sempre que possível.</li>
+                <li><strong>Reduza, reutilize e recicle:</strong> Diminua o consumo, especialmente de produtos descartáveis e plásticos.</li>
+                <li><strong>Adote uma alimentação mais sustentável:</strong> Reduza o consumo de carne, especialmente carne vermelha, e prefira alimentos locais e orgânicos.</li>
+                <li><strong>Plante árvores:</strong> Apoie projetos de reflorestamento ou plante árvores em sua comunidade.</li>
+                <li><strong>Eduque e mobilize:</strong> Compartilhe informações sobre mudanças climáticas e incentive outras pessoas a agirem.</li>
+                <li><strong>Cobre ações dos governantes:</strong> Participe de eleições, apoie políticas ambientais e cobre compromissos com a sustentabilidade.</li>
+            </ul>
+
+            <div class="highlight" style="margin-top: 2rem;">
+                <strong>Lembre-se:</strong> Cada ação conta! Pequenas mudanças no nosso dia a dia, quando multiplicadas por bilhões de pessoas, podem gerar um impacto transformador no planeta.
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 - Página sobre Mudanças Climáticas</p>
+        <p>Juntos podemos fazer a diferença pelo futuro do nosso planeta 🌱</p>
+        <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.8;">Fontes: IPCC, NASA, ONU Meio Ambiente</p>
+    </footer>
+</body>
+</html>
